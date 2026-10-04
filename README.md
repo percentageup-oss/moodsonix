@@ -68,8 +68,8 @@ Echo Music is a comprehensive music streaming application that provides:
 ### Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/iad1tya/Echo-Music.git
-   cd Echo-Music
+   git clone https://github.com/percentageup-oss/moodsonix.git
+   cd moodsonix
    ```
 
 2. **Configure Android SDK**
