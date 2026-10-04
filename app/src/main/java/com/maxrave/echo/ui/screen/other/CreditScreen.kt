@@ -5,7 +5,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.MarqueeAnimationMode
 import androidx.compose.foundation.basicMarquee
 import androidx.compose.foundation.focusable
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -20,13 +19,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.LocalMinimumInteractiveComponentSize
 import androidx.compose.material3.MaterialTheme
@@ -150,16 +145,6 @@ fun CreditScreen(
             }
         }
 
-        Spacer(modifier = Modifier.height(24.dp))
-
-        // Buy Me a Coffee button
-        BuyMeACoffeeButton(
-            onClick = {
-                val urlIntent = Intent(Intent.ACTION_VIEW, "https://buymeacoffee.com/iad1tya".toUri())
-                context.startActivity(urlIntent)
-            }
-        )
-
         Spacer(modifier = Modifier.height(60.dp))
     }
     
@@ -212,42 +197,5 @@ private fun SimpleLink(
             style = typo.bodyMedium,
             color = MaterialTheme.colorScheme.primary
         )
-    }
-}
-
-@Composable
-private fun BuyMeACoffeeButton(
-    onClick: () -> Unit
-) {
-    Button(
-        onClick = onClick,
-        modifier = Modifier
-            .height(48.dp)
-            .width(200.dp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = Color(0xFFFFDD00) // Yellow background like Buy Me a Coffee
-        ),
-        shape = RoundedCornerShape(24.dp),
-        border = BorderStroke(
-            width = 2.dp,
-            color = Color.Black
-        )
-    ) {
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.Center
-        ) {
-            Text(
-                text = "☕",
-                style = typo.bodyLarge
-            )
-            Spacer(modifier = Modifier.width(8.dp))
-            Text(
-                text = "Buy me a Coffee",
-                style = typo.bodyMedium,
-                color = Color.Black,
-                fontWeight = FontWeight.Medium
-            )
-        }
     }
 }

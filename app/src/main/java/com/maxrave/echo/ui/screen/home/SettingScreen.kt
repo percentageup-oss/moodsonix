@@ -1237,13 +1237,6 @@ fun SettingScreen(
                     },
                 )
                 SettingItem(
-                    title = stringResource(R.string.buy_me_a_coffee),
-                    subtitle = stringResource(R.string.donation),
-                    onClick = {
-                        uriHandler.openUri("https://buymeacoffee.com/iad1tya")
-                    },
-                )
-                SettingItem(
                     title = stringResource(R.string.privacy_policy),
                     subtitle = stringResource(R.string.privacy_policy_description),
                     onClick = {
