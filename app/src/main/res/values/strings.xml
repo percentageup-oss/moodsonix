@@ -123,7 +123,7 @@
     <string name="github">Github</string>
     <string name="maxrave_dev">Abhinav.k.Tony</string>
     <string name="moodsonix_developer" translatable="false">Abhinav.k.Tony</string>
-    <string name="moodsonix_credit_app" translatable="false">moodsonix is an open-source music app powered by YouTube and YouTube Music. It delivers seamless music streaming without ads or tracking. Developed by Abhinav.k.Tony, based on Echo Music and SimpMusic.</string>
+    <string name="moodsonix_credit_app" translatable="false">An open-source music app for streaming and discovering music with YouTube Music.</string>
     <string name="buy_me_a_coffee">Buy me a coffee</string>
     <string name="paypal">PayPal</string>
     <string name="title">Title</string>

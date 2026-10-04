@@ -102,7 +102,7 @@ fun CreditScreen(
 
         // Attribution
         Text(
-            text = "moodsonix by Abhinav.k.Tony\nBased on Echo Music by iad1tya and SimpMusic",
+            text = "moodsonix by Abhinav.k.Tony",
             style = typo.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center
