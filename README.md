@@ -164,7 +164,7 @@ Your privacy is important to us. Please read our [Privacy Policy](PRIVACY_POLICY
 ## Credits
 
 ### Original Project
-Echo Music is a fork of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), originally developed by [maxrave-dev](https://github.com/maxrave-dev).
+moodsonix is a fork of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), originally developed by [maxrave-dev](https://github.com/maxrave-dev).
 
 ### Acknowledgments
 - **YouTube Music** for providing the music streaming platform
