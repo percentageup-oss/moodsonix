@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="Echo_github.png" alt="Echo Music Logo"/>
+  <img src="download (1).png" alt="moodsonix Logo"/>
 </div>
 
 <div align="center">
@@ -8,20 +8,7 @@
   <p>Stream music from YouTube Music and Spotify with advanced features like AI song suggestions, synced lyrics, and offline playback.</p>
 </div>
 
-<div align="center">
-  <a href="https://github.com/iad1tya/Echo-Music">
-    <img src="https://img.shields.io/github/stars/iad1tya/Echo-Music?style=social" alt="GitHub stars"/>
-  </a>
-  <a href="https://github.com/iad1tya/Echo-Music">
-    <img src="https://img.shields.io/github/forks/iad1tya/Echo-Music?style=social" alt="GitHub forks"/>
-  </a>
-  <a href="https://github.com/iad1tya/Echo-Music/issues">
-    <img src="https://img.shields.io/github/issues/iad1tya/Echo-Music" alt="GitHub issues"/>
-  </a>
-  <a href="https://github.com/iad1tya/Echo-Music/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/iad1tya/Echo-Music" alt="License"/>
-  </a>
-</div>
+
 
 ## Screenshots
 
