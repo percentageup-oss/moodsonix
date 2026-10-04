@@ -44,7 +44,7 @@ fun PrivacyPolicyDialog(
                     .fillMaxWidth()
             ) {
                 Text(
-                    text = "Echo Music is committed to protecting your privacy. This policy explains how we handle your information.",
+                    text = "moodsonix is committed to protecting your privacy. This policy explains how we handle your information.",
                     style = typo.bodyMedium
                 )
                 
@@ -111,7 +111,7 @@ fun PrivacyPolicyDialog(
                 Spacer(modifier = Modifier.height(16.dp))
                 
                 Text(
-                    text = "By using Echo Music, you agree to this privacy policy.",
+                    text = "By using moodsonix, you agree to this privacy policy.",
                     style = typo.bodySmall,
                     textAlign = TextAlign.Center,
                     color = MaterialTheme.colorScheme.onSurfaceVariant

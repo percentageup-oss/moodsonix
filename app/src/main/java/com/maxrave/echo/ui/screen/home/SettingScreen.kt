@@ -1231,9 +1231,9 @@ fun SettingScreen(
                 )
                 SettingItem(
                     title = "Modified by",
-                    subtitle = stringResource(R.string.maxrave_dev),
+                    subtitle = stringResource(R.string.moodsonix_developer),
                     onClick = {
-                        uriHandler.openUri("https://github.com/iad1tya")
+                        navController.navigate(CreditDestination)
                     },
                 )
                 SettingItem(

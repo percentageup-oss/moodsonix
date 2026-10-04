@@ -515,7 +515,7 @@ class Ytmusic {
         }
 
     suspend fun checkForGithubReleaseUpdate() =
-        httpClient.get("https://api.github.com/repos/iad1tya/Echo-Music/releases/latest") {
+        httpClient.get("https://api.github.com/repos/percentageup-oss/moodsonix/releases/latest") {
             contentType(ContentType.Application.Json)
         }
 

@@ -106,7 +106,7 @@ fun UserNameScreen(
             if (showContent) {
                 AsyncImage(
                     model = R.mipmap.ic_launcher_round,
-                    contentDescription = "Echo Music Logo",
+                    contentDescription = "moodsonix Logo",
                     modifier = Modifier.size(80.dp)
                 )
                 

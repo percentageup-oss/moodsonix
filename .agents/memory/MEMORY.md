@@ -1,0 +1,2 @@
+- [Product branding](product-branding.md) — user-specified app name and developer display credit.
+- [Android icon verification](android-icon-verification.md) — check themed masks on a contrasting background, not just their dimensions.

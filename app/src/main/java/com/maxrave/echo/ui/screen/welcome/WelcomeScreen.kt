@@ -123,7 +123,7 @@ fun WelcomeScreen(
             if (showContent) {
                 AsyncImage(
                     model = R.mipmap.ic_launcher_round,
-                    contentDescription = "Echo Music Logo",
+                    contentDescription = "moodsonix Logo",
                     modifier = Modifier
                         .size(120.dp)
                         .alpha(titleAlpha.value)
@@ -132,7 +132,7 @@ fun WelcomeScreen(
                 Spacer(modifier = Modifier.height(32.dp))
                 
                 Text(
-                    text = "Echo Music",
+                    text = "moodsonix",
                     style = typo.headlineLarge.copy(
                         fontSize = 48.sp,
                         fontWeight = FontWeight.Bold

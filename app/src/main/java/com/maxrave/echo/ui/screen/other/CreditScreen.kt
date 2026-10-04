@@ -93,7 +93,7 @@ fun CreditScreen(
 
         // App name with version
         Text(
-            text = "Echo v${VersionManager.getVersionName()}",
+            text = "moodsonix v${VersionManager.getVersionName()}",
             style = typo.headlineSmall,
             fontWeight = FontWeight.Medium
         )
@@ -102,7 +102,7 @@ fun CreditScreen(
 
         // Attribution
         Text(
-            text = "Based on SimpMusic, modified by iad1tya for Echo Music",
+            text = "moodsonix by Abhinav.k.Tony\nBased on Echo Music by iad1tya and SimpMusic",
             style = typo.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center
@@ -112,7 +112,7 @@ fun CreditScreen(
 
         // Simple description
         Text(
-            text = stringResource(R.string.credit_app),
+            text = stringResource(R.string.moodsonix_credit_app),
             style = typo.bodyMedium,
             textAlign = TextAlign.Center,
             lineHeight = 20.sp
@@ -170,7 +170,7 @@ fun CreditScreen(
             },
         title = {
             Text(
-                text = "About Echo",
+                text = "About moodsonix",
                 style = typo.titleMedium,
                 maxLines = 1,
                 modifier = Modifier
