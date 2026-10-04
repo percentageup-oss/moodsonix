@@ -175,10 +175,10 @@ moodsonix is a fork of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), or
 - **All contributors** who help make Echo Music better
 
 ### Developer
-Echo Music is developed and maintained by [iad1tya](https://github.com/iad1tya).
+moodsonix  is developed and maintained by Abhinav.K.Tony
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/iad1tya">iad1tya</a></p>
+  <p>Made with ❤️ by Abhinav.K.Tony
 </div>
