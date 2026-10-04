@@ -158,8 +158,8 @@ Your privacy is important to us. Please read our [Privacy Policy](PRIVACY_POLICY
 
 ## Bug Reports & Feature Requests
 
-- **Bug Reports**: [Create an issue](https://github.com/iad1tya/Echo-Music/issues/new?template=bug_report.md)
-- **Feature Requests**: [Create an issue](https://github.com/iad1tya/Echo-Music/issues/new?template=feature_request.md)
+- **Bug Reports**: [Create an issue](https://github.com/percentageup-oss/moodsonix/issues/new?template=bug_report.md)
+- **Feature Requests**: [Create an issue](https://github.com/percentageup-oss/moodsonix/issues/new?template=feature_request.md)
 
 ## Credits
 
